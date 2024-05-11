@@ -10,7 +10,7 @@ In the project directory, you can run:
 ### To start the project
 
 Open the project in your source code editor
-Open terminal and write 'npm i' press Enter
+Open terminal and write 'npm i' press Enter, this will download all the necessary files into node modules folder
 After completion, write 'npm start' in the terminal. Press Enter
 The Project will successfully run in your browser at  http://localhost:3000 
 
