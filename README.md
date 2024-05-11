@@ -6,6 +6,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### To start the project
+
+Open the project in your source code editor
+Open terminal and write 'npm i' press Enter
+After completion, write 'npm start' in the terminal. Press Enter
+The Project will successfully run in your browser at  http://localhost:3000 
+
+
+
+### To use your API keys 
+
+Create your free account in 
+1. https://geocode.maps.co/
+2. https://www.weatherapi.com/
+After successfull creation of account, copy the generated API keys
+Open var.js file inside the project folder
+Paste the API keys at the matching site name
+
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
