@@ -74,7 +74,7 @@ function WeatherForeCastCard(props){
             if(lat && lon){
               console.log('Lat:',lat, 'lon: ',lon)
               const locationQuery=lat+','+lon
-              fetch(`http://api.weatherapi.com/v1/forecast.json?key=${weatherAPIKEY}&q=${locationQuery}&aqi=no&days=1&alerts=no`, {
+              fetch(`https://api.weatherapi.com/v1/forecast.json?key=${weatherAPIKEY}&q=${locationQuery}&aqi=no&days=1&alerts=no`, {
               })
               .then(function (response) {
                 return response.json();
